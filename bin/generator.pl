@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-use 5.018;
+use 5.014;
 use warnings;
-no if $] >= 5.018, warnings => "experimental";
 
 use FindBin qw/$RealBin/;
 use lib $RealBin . '/../local/lib/perl5';

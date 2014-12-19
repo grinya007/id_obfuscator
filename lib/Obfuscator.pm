@@ -1,6 +1,5 @@
 package Obfuscator;
-use 5.018;
-no if $] >= 5.018, warnings => "experimental";
+use 5.014;
 
 use Digest::xxHash qw/xxhash/;
 use MIME::Base64 qw/encode_base64url decode_base64url/;
