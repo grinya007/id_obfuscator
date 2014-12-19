@@ -3,7 +3,6 @@ use 5.014;
 use warnings;
 
 use FindBin qw/$RealBin/;
-use lib $RealBin . '/../local/lib/perl5';
 use lib $RealBin . '/../lib';
 
 use Obfuscator;
